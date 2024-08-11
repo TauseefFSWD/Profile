@@ -1,0 +1,84 @@
+/* src/components/PortFolio.css */
+.projects {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.projects h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: rgb(186, 30, 79);
+  }
+  
+
+  .projects h3 {
+   
+    color: rgb(186, 30, 79);
+  }
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    color: rgb(186, 30, 79);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 1.75rem;
+    color: #333;
+}
+
+.card-content p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 1rem; /* Adds space above the link */
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Responsive design */
+@media (min-width: 600px) {
+    .card {
+        width: 45%; /* Two cards per row on medium screens */
+    }
+}
+
+@media (min-width: 900px) {
+    .card {
+        width: 30%; /* Three cards per row on large screens */
+    }
+}

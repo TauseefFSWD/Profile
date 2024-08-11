@@ -1,0 +1,68 @@
+/* src/components/Education.css */
+.education {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.education h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem; /* Larger font size for headings */
+    color: #333; /* Darker color for better readability */
+}
+
+.education-cards {
+    display: flex;
+    justify-content: center; /* Center align the cards */
+    flex-wrap: wrap;
+    gap: 1.5rem; /* Slightly larger gap between cards */
+}
+
+.education-card {
+    background-color: #fff;
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width on small screens */
+    max-width: 350px; /* Max width for larger screens */
+    padding: 1.5rem; /* More padding inside cards */
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+/* Hover effect for education cards */
+.education-card:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.education-card h3 {
+    margin: 0;
+    font-size: 1.75rem; /* Slightly larger font size */
+    color: #333; /* Darker color for headings */
+}
+
+.education-card h4 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #007bff; /* Brand color */
+}
+
+.education-card p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #666; /* Light gray for text */
+}
+
+/* Responsive design */
+@media (min-width: 600px) {
+    .education-card {
+        width: 45%; /* Two cards per row on medium screens */
+    }
+}
+
+@media (min-width: 900px) {
+    .education-card {
+        width: 30%; /* Three cards per row on large screens */
+    }
+}

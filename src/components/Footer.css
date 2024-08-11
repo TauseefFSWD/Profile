@@ -1,0 +1,48 @@
+.footer {
+    background-color: #2e3a40;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem; /* Increased padding for more space */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  }
+  
+  .social-links {
+    margin: 1rem 0; /* Adjusted margin for better spacing */
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 1rem;
+    font-size: 2rem;
+    transition: color 0.3s, transform 0.3s; /* Added transform transition */
+  }
+  
+  .social-links a:hover {
+    color: #1da1f2; /* Change this color to match your design */
+    transform: scale(1.1); /* Slight scale effect on hover */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.875rem;
+    opacity: 0.8; /* Slightly lower opacity for a subtle effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .social-links {
+      margin: 0.5rem 0; /* Adjust margin for smaller screens */
+    }
+  
+    .social-links a {
+      font-size: 1.5rem; /* Smaller icon size on smaller screens */
+    }
+  
+    .footer p {
+      font-size: 0.75rem; /* Smaller text size on smaller screens */
+    }
+  }
+  
