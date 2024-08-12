@@ -17,10 +17,10 @@ const PortFolio = () => {
       link: "https://shop-it-fh93.onrender.com/",
     },
     {
-      title: "PRO-File App",
+      title: "PageTurner",
       description:
-        "Developed a profile app enabling users to create and manage personalized profiles upon login. Built with React for a dynamic frontend and Bootstrap for responsive design. The backend is powered by Node.js and Express, with MongoDB for secure data management. The app supports full CRUD operations—Create, Read, Update, and Delete—allowing users to customize their profiles seamlessly. Features include user authentication and an intuitive interface for a personalized experience.",
-      link: "https://finalfrontend-tt30.onrender.com/",
+        "PageTurner is a state-of-the-art book-selling platform built with the MERN stack. It features a sleek, user-friendly interface with a new dark mode, a seamless checkout process, and showcases your expertise in the book industry. Additional features include personalized book recommendations, advanced search filters, and user reviews to enhance the browsing experience. The site is designed to be responsive and engaging across all devices.",
+      link: "https://pageturner-hbja.onrender.com/",
     },
   ];
 
