@@ -11,6 +11,12 @@ const PortFolio = () => {
       link: "https://chitchat-hub.onrender.com/",
     },
     {
+      title: "YumCart",
+      description:
+        "YumCart is a MERN stack-based food ordering app that offers a user-friendly experience for browsing restaurants, exploring menus, and placing orders. Key features include secure user authentication, detailed restaurant listings, customizable orders, secure payments, and real-time order tracking. The app is built with MongoDB, Express.js, React.js, and Node.js, ensuring a responsive and efficient experience across both desktop and mobile devices.",
+      link: "https://yumcart.onrender.com/",
+    },
+    {
       title: "Shop-IT",
       description:
         "Developed a comprehensive e-commerce website featuring product listings, a shopping cart, and secure checkout functionality. Utilized React for a dynamic frontend experience, Bootstrap for responsive design, and Node.js with Express for backend services. Integrated MongoDB for scalable data management, supporting CRUD operations for products and user accounts. The site includes user authentication, payment processing, and a seamless shopping experience.",
