@@ -5,6 +5,12 @@ import "./PortFolio.css";
 const PortFolio = () => {
   const projectData = [
     {
+      title: "CinePalace",
+      description:
+        "CinePalace is a cutting-edge movie website built using the MERN stack, showcasing a seamless integration of MongoDB, Express, React, and Node.js. It provides a dynamic and visually captivating user experience, featuring an extensive collection of movies and TV shows. The platform includes personalized movie recommendations, a robust search feature, and a centralized payment system for renting movies. Its responsive design ensures optimal performance across all devices, while the modern, dark-themed interface aligns with the cinematic experience. CinePalace not only delivers a rich visual appeal but also leverages advanced technologies for a smooth and engaging user journey.",
+      link: "https://cinepalace.onrender.com/",
+    },
+    {
       title: "Chit-Chat Hub",
       description:
         "Developed a messaging website using React for a dynamic frontend, with Bootstrap for responsive design. Implemented real-time communication and user authentication with Node.js and Express, and managed data using MongoDB. Features include intuitive chat interactions, group messaging, and emoji support, all optimized for a seamless user experience.",
