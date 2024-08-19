@@ -8,6 +8,12 @@ const PortFolio = () => {
       title: "CinePalace",
       description:
         "CinePalace is a cutting-edge movie website built using the MERN stack, showcasing a seamless integration of MongoDB, Express, React, and Node.js. It provides a dynamic and visually captivating user experience, featuring an extensive collection of movies and TV shows. The platform includes personalized movie recommendations, a robust search feature, and a centralized payment system for renting movies. Its responsive design ensures optimal performance across all devices, while the modern, dark-themed interface aligns with the cinematic experience. CinePalace not only delivers a rich visual appeal but also leverages advanced technologies for a smooth and engaging user journey.",
+      link: "https://elitebookings.onrender.com/",
+    },
+    {
+      title: "EliteBookings",
+      description:
+        "EliteBookings is an all-in-one booking platform designed to provide a seamless experience for travelers and entertainment seekers. It offers an extensive range of services, including hotel reservations, movie theater bookings, and flight reservations. Leveraging a modern technology stack, EliteBookings utilizes React and Vite for a responsive and dynamic user interface, while Node.js and Express power its robust backend, ensuring efficient data handling and seamless integrations.The platform features a sleek design achieved through custom CSS, allowing for a highly tailored and visually appealing user experience across all devices. With real-time availability, competitive pricing, and user-friendly features, EliteBookings is dedicated to delivering a superior booking experience, making it the go-to solution for all your travel and entertainment needs.",
       link: "https://cinepalace.onrender.com/",
     },
     {
