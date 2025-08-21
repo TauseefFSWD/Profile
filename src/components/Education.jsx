@@ -3,40 +3,47 @@ import React from "react";
 import "./Education.css";
 
 const Education = () => {
-  const educationData = [
+  const experienceData = [
     {
-      degree: "Bachelor of Science in Information Technology",
-      institution: "Mumbai University",
-      year: "2019 - 2022",
+      role: "Digital Marketing Intern",
+      company: "PIIDM (Pashium International Institute of Digital Marketing)",
+      year: "June 2025-August 2025",
       description:
-        "Graduated with 9.5 CGPA, focusing on software development, data structures, algorithms, and web development.",
+        "Worked on SEO, Google Ads, and Social Media Marketing campaigns. Learned hands-on strategies to optimize websites and improve brand visibility.",
     },
     {
-      degree: "Full Stack Development ",
-      institution: "UpGrad",
-      year: "2023 - 2024",
+      role: "Odoo Developer & SEO Executive",
+      company: "CaptainScrap",
+      year: "Nov 2024 - April 2025",
       description:
-        "Specialized in full stack development, MERN Stack development, and modern web technologies.",
+        "Utilized Odoo Website Builder to design, develop, and deploy the company's full website,Implemented complete SEO strategies, including technical audits,structured data, on-page optimization, and keyword targeting.",
     },
     {
-      degree: "Full Stack Web Developer Intern",
-      institution: "Ntech Global Solutions",
-      year: "2023 - 2024",
+      role: "Web Developer Intern",
+      company: "The Starter Labs",
+      year: "August 2024 - Nov 2024",
       description:
-        "During my internship as a Full Stack Developer, I gained hands-on experience working on both frontend and backend components of web applications.",
+        "Developed and customized WordPress and Shopify websites, improving responsiveness, load times, and sales conversions by up to 40% ,Collaborated with clients and teams to deliver tailored web solutions,streamlining project timelines by 20%.",
+    },
+    {
+      role: "Full Stack Web Developer Intern",
+      company: "NTech Global Solutions",
+      year: "Dec 2023 - April 2024",
+      description:
+        "Developed and maintained web applications using MERN stack. Contributed to frontend UI/UX improvements and backend API integration.",
     },
   ];
 
   return (
     <div className="education">
-      <h2>Education & Experiences</h2>
+      <h2>Work Experience</h2>
       <div className="education-cards">
-        {educationData.map((edu, index) => (
+        {experienceData.map((exp, index) => (
           <div className="education-card" key={index}>
-            <h3>{edu.degree}</h3>
-            <h4>{edu.institution}</h4>
-            <p>{edu.year}</p>
-            <p>{edu.description}</p>
+            <h3>{exp.role}</h3>
+            <h4>{exp.company}</h4>
+            <p>{exp.year}</p>
+            <p>{exp.description}</p>
           </div>
         ))}
       </div>

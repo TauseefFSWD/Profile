@@ -6,60 +6,71 @@ import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import { FaLinkedin } from "react-icons/fa";
 
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
+import { SiMongodb, SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped } from "react-typed";
+
+// DM Tools Icons
+import {
+  SiGoogleanalytics,
+  SiGoogleads,
+  SiSemrush,
+  SiMailchimp,
+  SiCanva,
+  SiWordpress,
+  SiFacebook,
+  SiInstagram,
+  SiTiktok,
+} from "react-icons/si";
+import { FaChartLine } from "react-icons/fa";
 
 function Home() {
   return (
     <>
       <div
         name="Home"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-12 md:my-16"
       >
         <div className="flex flex-col md:flex-row">
-          <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
+          <div className="md:w-1/2 mt-8 md:mt-12 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome In My Portfolio</span>
-            <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
-              {/* <span >Developer</span> */}
-              <ReactTyped
-                className="text-red-700 font-bold"
-                strings={[
-                  "Full Stack Developer.",
-                  "Frontend Developer.",
-                  "Backend Developer.",
-                ]}
-                typeSpeed={40}
-                backSpeed={50}
-                loop={true}
-              />
-            </div>
+
             <br />
             <p className="text-sm md:text-md text-justify">
-              I am a full stack web developer, who is experienced in both
-              front-end and back-end development, with extensive knowledge of
-              MERN stack (MongoDB, Node.js, React, Express.js). My experience
-              lies in creating complex e-commerce platforms as well as
-              interactive web applications that merge modern technologies to
-              enhance user interface and improve the overall functionality.
-              <br></br>
-              Furthermore, my hands-on experience coupled with internship at
-              Ntech Global Solutions helped me to contribute towards various
-              projects and sharpened my skills for problem-solving. I have
-              always been passionate about staying up-to-date on the best
-              practices that can be applied when it comes to delivering
-              high-quality websites that can be updated.
+              Hello, I'm a <b>Digital Marketing Specialist</b> with additional{" "}
+              <b>Full Stack Web Development</b> expertise.
+              <br />
+              My core strength lies in creating{" "}
+              <b>data-driven marketing campaigns</b> that boost brand
+              visibility, traffic, and sales. I specialize in{" "}
+              <b>
+                SEO, Google Ads, Meta Ads, PPC Campaigns, Social Media
+                Marketing, Email Marketing, and Analytics
+              </b>
+              .
+              <br />I am skilled in tools like{" "}
+              <b>
+                Google Analytics, Google Ads Manager, SEMrush, Meta Business
+                Suite, Mailchimp, Canva, and WordPress
+              </b>{" "}
+              — enabling me to plan, execute, and optimize campaigns across
+              multiple digital platforms.
+              <br />
+              Alongside DM, my <b>MERN stack development skills</b> allow me to
+              create optimized websites and landing pages that align with
+              marketing goals — ensuring higher engagement, conversions, and
+              measurable ROI.
             </p>
             <br />
+
             {/* social media icons */}
-            <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
-              <div className="  space-y-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Available on */}
+              <div className="space-y-2">
                 <h1 className="font-bold text-center ">Available on</h1>
-                <ul className="flex space-x-5">
+                <ul className="flex space-x-5 justify-center">
                   <li>
                     <a
                       href="https://github.com/TauseefFSWD"
@@ -89,25 +100,47 @@ function Home() {
                       />
                     </a>
                   </li>
-                  <li></li>
                 </ul>
               </div>
-              <div className=" space-y-2">
-                <h1 className="font-bold text-center">Currently working on</h1>
-                <div className="flex space-x-5">
-                  <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiExpress className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <FaNodeJs className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+
+              {/* Digital Marketing Tools */}
+              <div className="space-y-2">
+                <h1 className="font-bold text-center">
+                  Digital Marketing Tools
+                </h1>
+                <div className="flex flex-wrap gap-4 justify-center">
+                  <SiGoogleanalytics className="text-3xl hover:scale-110 duration-200 cursor-pointer text-blue-500" />
+                  <SiGoogleads className="text-3xl hover:scale-110 duration-200 cursor-pointer text-green-500" />
+                  <SiSemrush className="text-3xl hover:scale-110 duration-200 cursor-pointer text-orange-500" />
+                  <SiFacebook className="text-3xl hover:scale-110 duration-200 cursor-pointer text-blue-700" />
+                  <SiInstagram className="text-3xl hover:scale-110 duration-200 cursor-pointer text-pink-600" />
+                  <SiTiktok className="text-3xl hover:scale-110 duration-200 cursor-pointer text-black" />
+                  <SiMailchimp className="text-3xl hover:scale-110 duration-200 cursor-pointer text-yellow-500" />
+                  <SiCanva className="text-3xl hover:scale-110 duration-200 cursor-pointer text-purple-500" />
+                  <SiWordpress className="text-3xl hover:scale-110 duration-200 cursor-pointer text-indigo-700" />
+                  <FaChartLine className="text-3xl hover:scale-110 duration-200 cursor-pointer text-gray-600" />
+                </div>
+              </div>
+
+              {/* Web Dev Stack */}
+              <div className="space-y-2 md:col-span-2">
+                <h1 className="font-bold text-center">Web Development</h1>
+                <div className="flex space-x-5 justify-center">
+                  <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 cursor-pointer" />
+                  <SiExpress className="text-2xl md:text-3xl hover:scale-110 duration-200 cursor-pointer" />
+                  <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 cursor-pointer" />
+                  <FaNodeJs className="text-2xl md:text-3xl hover:scale-110 duration-200 cursor-pointer" />
                 </div>
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
+
+          {/* Profile Image */}
+          <div className="md:w-1/2 md:ml-32 md:mt-12 mt-8 order-1">
             <img
               src={pic}
-              className="rounded-full md:w-[450px] md:h-[450px]"
-              alt=""
+              className="rounded-full md:w-[400px] md:h-[400px]"
+              alt="profile"
             />
           </div>
         </div>

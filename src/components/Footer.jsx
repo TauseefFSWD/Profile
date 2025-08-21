@@ -34,7 +34,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
       </div>
-      <p>&copy; 2024 Tauseef Shaikh. All rights reserved.</p>
+      <p>&copy; 2025 Tauseef Shaikh. All rights reserved.</p>
     </footer>
   );
 };

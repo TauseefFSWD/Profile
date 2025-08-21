@@ -5,28 +5,40 @@ import "./Skills.css";
 const Skills = () => {
   const skillsData = [
     {
-      name: "MongoDB",
+      name: "SEO (Search Engine Optimization)",
       description:
-        "Deep knowledge of MongoDB for database management and optimization. Experienced in designing schemas, indexing, and optimizing queries to ensure high performance and scalability in database operations.",
-      icon: "🔍", // Replace these with actual images or icons if desired
+        "Experienced in optimizing websites to improve visibility on search engines. Skilled in keyword research, on-page SEO, technical SEO, and link building strategies to drive organic traffic and improve rankings.",
+      icon: "📈",
     },
     {
-      name: "Express",
+      name: "Google Ads",
       description:
-        "Expertise in building robust backend applications using Express. Proficient in creating RESTful APIs, middleware integration, and handling asynchronous operations to build scalable server-side applications.",
-      icon: "🚀",
-    },
-    {
-      name: "React",
-      description:
-        "Proficient in creating dynamic and responsive front-end applications with React. Skilled in using hooks, state management, and component-based architecture to build interactive user interfaces and SPAs.",
-      icon: "⚛️",
-    },
-    {
-      name: "Node.js",
-      description:
-        "Extensive experience with Node.js for server-side development and API creation. Capable of building high-performance, event-driven applications using Node.js and its ecosystem, including npm and various libraries.",
+        "Proficient in managing Google Ads campaigns, including search, display, and video ads. Experienced in keyword targeting, ad copywriting, bid management, and conversion tracking to maximize ROI.",
       icon: "🟢",
+    },
+    {
+      name: "Website Development",
+      description:
+        "Proficient in developing full-stack applications using MongoDB, Express, React, Node.js, and WordPress. Skilled in creating responsive frontends, scalable backends, RESTful APIs, and managing databases for modern web applications.",
+      icon: "💻",
+    },
+    {
+      name: "Meta Ads (Facebook & Instagram)",
+      description:
+        "Skilled in running and optimizing paid campaigns on Facebook and Instagram. Expertise in audience targeting, A/B testing, ad creatives, and performance analytics to generate quality leads and conversions.",
+      icon: "📊",
+    },
+    {
+      name: "Google Analytics & Tag Manager",
+      description:
+        "Strong knowledge of Google Analytics (GA4) and Google Tag Manager for tracking website performance. Experienced in setting up events, conversion tracking, custom reports, and analyzing user behavior.",
+      icon: "🔍",
+    },
+    {
+      name: "Email & Content Marketing",
+      description:
+        "Proficient in using tools like Mailchimp and HubSpot for email campaigns. Skilled in writing engaging content, creating automation workflows, and analyzing campaign performance.",
+      icon: "✉️",
     },
   ];
 

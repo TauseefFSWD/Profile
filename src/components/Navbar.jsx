@@ -1,43 +1,41 @@
 import React, { useState } from "react";
-import pic from "../../public/ME.png";
+import pic from "../../public/ME.jpg";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
+
 function Navbar() {
   const [menu, setMenu] = useState(false);
+
+  // Updated nav items → removed "About", added "Work"
   const navItems = [
-    {
-      id: 1,
-      text: "Home",
-    },
-    {
-      id: 2,
-      text: "About",
-    },
-    {
-      id: 3,
-      text: "Projects",
-    },
-    {
-      id: 4,
-      text: "Skills",
-    },
-    {
-      id: 5,
-      text: "Contact",
-    },
+    { id: 1, text: "Home" },
+    { id: 2, text: "Work" },
+    { id: 3, text: "Education" },
+    { id: 4, text: "Skills" },
+    { id: 5, text: "Contact" },
   ];
+
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
         <div className="flex justify-between items-center h-16">
-          <div className=" flex space-x-2">
-            <img src={pic} className="h-12 w-12 rounded-full" alt="" />
-            <h1 className="font-semibold text-xl cursor-pointer">
-              TAUSEEF AKBAR ALI SHAIKH
-              <p className="text-sm">Web Developer</p>
-            </h1>
+          <div className="flex space-x-2 items-center">
+            <img
+              src={pic}
+              className="h-10 w-10 md:h-12 md:w-12 rounded-full"
+              alt="profile"
+            />
+            <div>
+              <h1 className="font-semibold text-sm sm:text-base md:text-xl leading-tight cursor-pointer">
+                TAUSEEF AKBAR ALI SHAIKH
+              </h1>
+              <p className="text-[10px] sm:text-xs md:text-sm">
+                Certified Digital Marketer & Web Developer
+              </p>
+            </div>
           </div>
+
           {/* desktop navbar */}
           <div>
             <ul className="hidden md:flex space-x-8">
@@ -63,6 +61,7 @@ function Navbar() {
             </div>
           </div>
         </div>
+
         {/* mobile navbar */}
         {menu && (
           <div className="bg-white">
